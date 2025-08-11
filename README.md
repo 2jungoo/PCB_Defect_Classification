@@ -116,33 +116,4 @@ Input (3x224x224)
 | CNN2   | **0.929**    | 단일 모델, 최고 성능 |
 | ResNet | 0.893        | 전이학습 기반, 빠른 수렴 |
 
----
 
-## 📁 프로젝트 구조
-PCB_Defect_Classification/
-│── data/
-│ ├── train/
-│ ├── test/
-│ ├── trainval_label.csv
-│ └── test_label.csv
-│
-│── images/ # 그래프 & 예시 이미지
-│ ├── cnn1_acc_loss.png
-│ ├── cnn2_acc_loss.png
-│ ├── resnet_acc_loss.png
-│ ├── cnn1_cm.png
-│ ├── cnn2_cm.png
-│ ├── resnet_cm.png
-│ ├── cnn2_f1.png
-│ ├── resnet_f1.png
-│ └── cnn2_output.png
-│
-│── models/
-│ ├── cnn1.py
-│ ├── cnn2.py
-│ └── resnet.py
-│
-│── train.py
-│── test.py
-│── utils.py
-│── README.md
