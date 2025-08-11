@@ -104,7 +104,7 @@ Input (3x224x224)
 
 ---
 
-### 🎯 CNN2 Output 예시
+### 🎯 CNN2 Output
 ![CNN2 Output](images/cnn2_output.png)
 
 ---
